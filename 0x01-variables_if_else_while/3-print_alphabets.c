@@ -15,7 +15,7 @@ int main(void)
 	}
 	for(bet = 'A' ; bet <= 'Z' ; bet++)
 	{
-		putchar(bet)
+		putchar(bet);
 	}
 	putchat('\n');
 	return (0);
