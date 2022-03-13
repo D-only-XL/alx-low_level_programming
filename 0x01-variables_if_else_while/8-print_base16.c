@@ -13,6 +13,6 @@ int main(void)
 		putchar(numb);
 	for (alphab = 97 ; alphab <= 102 ; alphab++)
 		putchar(alphab);
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
