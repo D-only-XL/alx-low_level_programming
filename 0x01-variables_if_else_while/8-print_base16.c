@@ -9,7 +9,7 @@ int main(void)
 	int numb;
 	char alphab;
 
-	fot (numb = 48 ; numb <= 57 ; numb++)
+	for (numb = 48 ; numb <= 57 ; numb++)
 		putchar(numb);
 	for (alpha = 97 ; alpha <= 102 ; alpha++)
 		putchar('\n');
