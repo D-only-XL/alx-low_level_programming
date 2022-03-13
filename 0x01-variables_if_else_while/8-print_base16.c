@@ -11,6 +11,7 @@ int main(void)
 
 	for (numb = 48 ; numb <= 57 ; numb++)
 		putchar(numb);
-	for (alpha = 97 ; alpha <= 102 ; alpha++)
+	for (alphab = 97 ; alphab <= 102 ; alphab++)
 		putchar('\n');
 	return (0);
+}
