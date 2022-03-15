@@ -16,6 +16,6 @@ while (m <= 0)
 putchar(h[m]);
 m++;
 }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
