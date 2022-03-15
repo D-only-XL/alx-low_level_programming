@@ -13,7 +13,7 @@ m = 0;
 
 while (m <= 0)
 {
-putchar(h[m]);
+putchar(_putchar[m]);
 m++;
 }
 putchar('\n');
