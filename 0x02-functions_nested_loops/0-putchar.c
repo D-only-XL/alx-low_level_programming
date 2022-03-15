@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-Char h[] = "Holberton"
-Int m;
+char h[] = "Holberton"
+int m;
 
 m = 0;
 
