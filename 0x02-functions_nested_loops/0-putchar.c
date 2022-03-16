@@ -13,7 +13,7 @@ int main(void)
   
   while (m <= 8)
   {
-    h[m]); m++;
+    h[m] ; m++;
   }
   _putchar('\n');
   return (0);
