@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
 *main - Entry point
 *
@@ -13,8 +13,8 @@ int main(void)
   
   while (m <= 8)
   {
-    h[m] ; m++;
+    h(m) ; m++;
   }
-  _putchar('\n');
+  (_putchar '\n');
   return (0);
 }
