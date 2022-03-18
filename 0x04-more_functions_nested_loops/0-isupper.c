@@ -7,7 +7,6 @@
 *
 *Return: returns 1 if c is uppercase, returns 0 otherwise
 */
-
 int _isupper(int c)
 {
 int val;
