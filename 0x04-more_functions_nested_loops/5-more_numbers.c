@@ -5,7 +5,6 @@
 *followed by a new line
 *Return: 0
 */
-
 void more_numbers(void)
 {
 int i;
