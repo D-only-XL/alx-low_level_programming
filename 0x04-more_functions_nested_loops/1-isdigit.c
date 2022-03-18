@@ -3,7 +3,7 @@
 /**
 *_isdigit - function that prints the sign of a number
 *
-*Return: 1 if c is a digit, o otherwise
+*Return: 1 if c is a digit, 0 otherwise
 */
 
 int _isdigit(int c)
