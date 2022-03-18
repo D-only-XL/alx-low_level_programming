@@ -16,5 +16,5 @@ val = 1;
 else
 val = 0;
 
-return (0);
+return (val);
 }
