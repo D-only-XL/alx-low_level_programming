@@ -14,6 +14,6 @@ if (c >= 'A' && 'C' <= 'Z')
 {
 return (1);
 }
-  else
+else
 return (0);
 }
