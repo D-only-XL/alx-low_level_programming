@@ -10,11 +10,14 @@
 
 int _isupper(int c)
 {
-if (c >= 'A' && 'C' <= 'Z')
+int up;
+
+for (up = 65; up <= 90; up++)
+{
+if (up == c)
 {
 return (1);
 }
-else
-
+}
 return (0);
 }
