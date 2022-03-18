@@ -7,7 +7,7 @@
 *Return: Always 0 (Success)
 */
 
-void more_numbers(vvoid
+void more_numbers(void)
 {
 int i;
 int n;
