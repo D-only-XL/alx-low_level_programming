@@ -2,7 +2,7 @@
 
 /**
 *_isdigit - function that prints the sign of a number
-*
+*@c: character to be evaluated
 *Return: 1 if c is a digit, 0 otherwise
 */
 
