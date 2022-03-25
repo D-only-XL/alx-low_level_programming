@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
 *_strncat - concentrates two strings
@@ -26,6 +26,6 @@ j++;
 i++;
 }
 
-dear[i] = '\0';
+dest[i] = '\0';
 return (dest);
 }
