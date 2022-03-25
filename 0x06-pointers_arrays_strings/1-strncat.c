@@ -4,8 +4,8 @@
 *_strncat - concentrates two strings
 *@dest: A pointer of a character that will be changed
 *@src: A pointer that a character that will also be changed
-@n: value
-Return: dest
+*@n: value
+*Return: dest
 */
 
 char *_strncat(char *dest, char *src, int n)
@@ -19,7 +19,7 @@ i++;
 }
 
 j = 0;
-while (j < n && src [j] != '\0')
+while (j < n && src[j] != '\0')
 {
 dest[i] = src[j];
 j++;
