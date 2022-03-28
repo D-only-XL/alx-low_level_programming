@@ -1,24 +1,25 @@
 #include "main.h"
 
 /*​*
-*_strchr - locates a character in a string *@s: the memory area
+*_strchr - locates a character in a string
+*@s: the memory area
 *@c: constant byte
 *
-*Return: a pointer when the character is found 
+*Return: a pointer when the character is found
 */
-char​ *​_strchr​(​char​ *s, ​char​ c)
+char *_strchr(char *s, char c)
 
 {
-int​ i = ​0​;
+int i = 0;
 
-while​ (s[i] != ​'​\0​'​)
+while (s[i] != '\0')
 {
 i++;
-if​ (s[i] == c)
+if (s[i] == c)
 {
- return​ (&s[i]);
+return (&s[i]);
 }
 }
-return​ (​'​\0​'​);
+return ('\0');
 
 }
