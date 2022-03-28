@@ -5,7 +5,7 @@
 *@s: pointer
 *@accept: pointer
 *
-*Return: a pointer to the byte that matches one of the by byte
+*Return: a pointer to the byte that matches one of the bytes
 */
 char *_strpbrk(char *s, char *accept)
 {
@@ -15,7 +15,7 @@ int j;
 while (s[i] != '\0')
 {
 j = 0;
-while (accept[j] = '\0')
+while (accept[j] != '\0')
 {
 if (s[i] == accept[j])
 {
