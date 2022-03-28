@@ -2,12 +2,12 @@
 
 /**
 *_strspn - gets the length of a prefix substring
-*@s: pointer to a string *@accept: pointer to a string
+*@s: pointer to a string
+*@accept: pointer to a string
 *
-* Return: the number of bytes
+*Return: the number of bytes
 */
-unsigned int _strspn(char *s, char *accept);
-
+unsigned int _strspn(char *s, char *accept)
 {
 int count = 0;
 int i = 0;
