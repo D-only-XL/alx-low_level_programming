@@ -11,7 +11,6 @@
 *Return: nothing
 */
 void print_diagsums(int *a, int size)
-
 {
 int i, j;
 int d1 = 0, d2 = 0;
