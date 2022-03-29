@@ -7,7 +7,7 @@
 *@a:pointer that contains the address of the beginning of the matrix
 *@size: size of the square matrix
 *
-*Return: chessboard
+*Return: 0
 */
 void print_diagsums(int *a, int size)
 {
@@ -23,4 +23,6 @@ for (j = size - 1; j < size * size - 1; j = j + (size - 1))
 d2 = d2 + a[j];
 }
 printf("%d, ​%d\n", d1, d2);
+
+return (0);
 }
