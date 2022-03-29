@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
-*print_diagsums - prints the sum of the two diagonals
-*of a square matrix
+*print_diagsums - prints additions of the two diagonals
 *
 *@a:pointer that contains the address of the beginning of the matrix
 *@size: size of the square matrix
