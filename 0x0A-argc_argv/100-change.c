@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 
 {
-if(argc != 2)
+if (argc != 2)
 {
 printf("%s\n", "Error");
 return (1);
@@ -39,27 +39,27 @@ while (cents > 0)
 while (cents >= q)
 {
 cents -= q;
-coins ++;
+coins++;
 }
 while (cents >= d)
 {
 cents -= d;
-coins ++;
+coins++;
 }
 while (cents >= n)
 {
 cents -= n;
-coins ++;
+coins++;
 }
 while (cents >= t)
 {
 cents -= t;
-coins ++;
+coins++;
 }
 while (cents >= p)
 {
 cents -= p;
-coins ++;
+coins++;
 }
 }
 return (coins);
