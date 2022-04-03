@@ -7,7 +7,7 @@
 *@a:pointer that contains the address of the beginning of the matrix
 *@size: size of the square matrix
 *
-*Return: nothing
+*Return: 0
 */
 void print_diagsums(int *a, int size)
 {
