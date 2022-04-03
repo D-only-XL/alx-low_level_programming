@@ -28,6 +28,6 @@ return (1);
 }
 sum = sum + atoi(argv[i]);
 }
-Printf("%d\n", sum);
+printf("%d\n", sum);
 return (0);
 }
