@@ -1,16 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
+int change(int cents);
 /**
-*main - adds positive numbers
-*@argc: argument count
-*@argv: argument vector for values
-*
-*Return: always to 0
+*main - Entry point
+*@argc: arguments
+*@argv: array pointing to arguments
+*Return: 0
 */
 int main(int argc, char *argv[])
-
 {
 if (argc != 2)
 {
