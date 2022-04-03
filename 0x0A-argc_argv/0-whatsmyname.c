@@ -1,9 +1,10 @@
-​include​ ​"​main.h"
+#​include​ ​"​main.h"
 #include ​<​stdio.h​>
-/*​* 
+
+/**
 *main - print its name
 *@argc: argument count
-*@argv: argument vector for values 
+*@argv: argument vector for values
 *
 *Return: Always 0 (Success)
 */
